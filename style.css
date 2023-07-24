@@ -45,22 +45,6 @@ h3 {
 a {
   text-decoration: none;
 }
-.flexParagraf {
-  display: flex;
-  margin: 30px 0;
-}
-.flexParagraf p {
-  margin: 10px;
-  text-align: center;
-}
-.paragraf {
-  padding: 20px;
-  margin: 20px;
-  background-color: var(--secondary-color);
-  font-size: 18px;
-  line-height: 1.5;
-  border-radius: 10px;
-}
 .email {
   font-size: 48px;
 }
