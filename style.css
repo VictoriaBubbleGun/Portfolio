@@ -1,0 +1,66 @@
+:root {
+  --primary-color: #6c63ff;
+  --secondary-color: #f5f2fe;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+body {
+  text-align: center;
+  margin: 60px auto;
+  max-width: 800px;
+}
+h1 {
+  font-size: 48px;
+  margin: 0px;
+}
+.fs-big {
+  font-size: 96px;
+}
+h3 {
+  opacity: 0.7;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+}
+.aboutsiteLink {
+  box-shadow: var(--box-shadow);
+  margin: 20px;
+  padding: 20px 15px;
+  background-color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  border-radius: 10px;
+}
+.aboutsiteLink a {
+  color: var(--secondary-color);
+}
+.aboutsiteLink1 {
+  margin: 20px;
+  padding: 20px 15px;
+  background-color: #ffff;
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+  border-radius: 10px;
+}
+a {
+  text-decoration: none;
+}
+.flexParagraf {
+  display: flex;
+  margin: 30px 0;
+}
+.flexParagraf p {
+  margin: 10px;
+  text-align: center;
+}
+.paragraf {
+  padding: 20px;
+  margin: 20px;
+  background-color: var(--secondary-color);
+  font-size: 18px;
+  line-height: 1.5;
+  border-radius: 10px;
+}
+.email {
+  font-size: 48px;
+}
