@@ -29,7 +29,6 @@ h3 {
   padding: 20px 15px;
   background-color: var(--primary-color);
   border: 1px solid var(--primary-color);
-  border-radius: 10px;
 }
 .aboutsiteLink a {
   color: var(--secondary-color);
@@ -40,11 +39,16 @@ h3 {
   background-color: #ffff;
   border: 1px solid var(--primary-color);
   color: var(--primary-color);
-  border-radius: 10px;
 }
-a {
-  text-decoration: none;
-}
-.email {
-  font-size: 48px;
+
+@media (max-width: 800px) {
+  .fs-big {
+    font-size: 48px;
+  }
+  h1 {
+    font-size: 36px;
+  }
+  .pic {
+    margin: 10px;
+  }
 }
